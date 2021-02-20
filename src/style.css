@@ -547,6 +547,7 @@
       top: 100px;
       width: 900px;
       background-color: #E5E5E5;
+      border: 1px black;
     }
     
     #read-more {
