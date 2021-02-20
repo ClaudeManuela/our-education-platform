@@ -526,7 +526,6 @@
       height: 300px;
       left: 240px;
       position: relative;
-      top: 70px;
       width: 900px;
       background-color: #E5E5E5;
       border-radius: 10px;
@@ -540,7 +539,7 @@
       padding-left: 18px;
       padding-right: 30px;
       display: block;
-      word-wrap: break-word; 
+      word-wrap:normal; 
       width: 100%;
       text-justify: inter-word;
     }
@@ -561,15 +560,6 @@
       width: 900px;
       background-color: #E5E5E5;
       border-radius: 10px;
-    }
-
-    .card {
-      background-color:white;
-      position: relative;
-      left: 220px;
-      border-radius: 10px;
-      height: fit-content;
-      width: 900px;
     }
     
     #read-more {
@@ -662,7 +652,11 @@
     
     #previous-button, #next-button {
       text-decoration: none;
-      padding-left: 75px;
+      padding-left: 175px;
+      padding-right: 100px;
+      position: relative;
+      top: 150px;
+      
     }
     
     #next-button {
