@@ -607,6 +607,8 @@
     #post-head {
       margin-left: 850px;
       position: relative;
+      left:780px;
+      top: 110px;
     }
     
      #delete-post, #editButton {
