@@ -516,7 +516,9 @@
       padding-right: 35px;
       word-wrap: break-word; 
       width: 100%;
-      line-height: 1;
+      line-height: 1.1;
+      position: relative;
+      top: -10px;
     }
     
     #display {
