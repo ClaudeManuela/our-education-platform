@@ -1,93 +1,88 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-       <link rel="preconnect" href="https://fonts.gstatic.com">
+<html lang="en">
+<head>
+        
+         <link rel="preconnect" href="https://fonts.gstatic.com">
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link href="src/style.css" rel="stylesheet" />
         <script src="https://kit.fontawesome.com/a119769e7e.js" crossorigin="anonymous"></script>
-         <title>Education platform</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laibah's Library</title>
 </head>
-<body>
-    <div class="v10_24"></div>
-        <div class="v10_40">
+<body class="library">
+        <div class="container">
+		<div class="d-flex justify-content-center h-100">
+			<div class="image_outer_container">
+				<div class="green_icon"></div>
+				<div class="image_inner_container">
+					<img src="https://i.pinimg.com/originals/43/96/61/439661dcc0d410d476d6d421b1812540.jpg">
+				</div>
+			</div>
+		</div>
+	</div>       
+              <div >
 
-        </div>
-        <span class="v10_25">LEARN ABOUT THE GOALS</span>
-        <div>
-            <i class="fas fa-bars"></i>
-        </div>
-        <span class="v10_29">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue morbi at nec, felis ut. Ut arcu sed auctor vitae lectus.  </span>
-    </div>
-         </div class="container-goals">
-            <div class="goal_1">
-                <img src="images/E-WEB-Goal-01.png" id="goal-1" alt="No poverty" onclick="enlargeImg()">
+                  <button id="nav-1" onClick="showDiv('#list-display')" id="next-button"><a href="library.html">Home</a></button>
+                  <button id="nav-2" id="create-blog" class="show-div" onClick="showDiv('#create')"><a href="#">Add new</a></button>
+          
+                <div id = 'create' class="hide-div">
+                  <form action="index.html" method="GET" id="form-create">
+                    <div>
+                    <input type="text" name="title" id="blog-title" placeholder="Article title">
+                    </div>
+                    <textarea name="text-editor" id="text-area" placeholder="Enter info here..."cols="30" rows="10"></textarea>
+                    <div>
+                    <input type="submit" id = 'form-submit' value="Save" onClick="showDiv('#list-display')">
+                    </div>
+                  </form>
+                </div>
+
+                <div id = 'edit' class="hide-div">
+                  <form action="index.html" method="GET" id="form-edit">
+                    <div>
+                    <input type="text" name="title" id="edit-title" placeholder="blog-title">
+                    </div>
+                    <textarea name="text-editor" id="edit-text-area" cols="30" rows="10"></textarea>
+                    <div>
+                    <input type="submit" id = 'edit-submit' value="Save" onClick="showDiv('#list-display')">
+                    </div>
+                  </form>
+                </div>
+                
+          
+                <div id="list-display">
+                  
+                  <div id = "post-head">
+                    <button id="delete-post" onClick='refreshPage();'></button>
+                    <button id="editButton" onClick="showDiv('#edit');"></button>
                   </div>
-            </div>
-            <div class="goal_2">
-                <img src="images/E-WEB-Goal-02.png" alt="Zero Hunger">
-            </div>
-            <div class="goal_3">
-                <img src="images/E-WEB-Goal-03.png" alt="Good health and Wellbeing">
-            </div>
-            <div class="goal_4">
-                <img src="images/E-WEB-Goal-04.png" alt="Quality Education">
-            </div>
-            <div class="goal_5">
-                <img src="images/E-WEB-Goal-05.png" alt="Gender Equality">
-            </div>
-            <div class="goal_6">
-                <img src="images/E-WEB-Goal-06.png" alt="Clean water and Sanitation">
-            </div>
-            <div class="goal_7">
-                <img src="images/E-WEB-Goal-07.png" alt="Affordable and Clean energy">
-            </div>
-            <div class="goal_8">
-                <img src="images/E-WEB-Goal-08.png" alt="Decent work and Economic growth">
-            </div>
-            <div class="goal_9">
-                <img src="images/E-WEB-Goal-09.png" alt="Industry, Innovation and Infrastructure">
-            </div>
-            <div class="goal_10">
-                <img src="images/E-WEB-Goal-10.png" alt="Reduced inequalities">
-            </div>
-            <div class="goal_11">
-                <img src="images/E-WEB-Goal-11.png" alt="Sustainable cities and communities">
-            </div>
-            <div class="goal_12">
-                <img src="images/E-WEB-Goal-12.png" alt="Responsible consumption and production">
-            </div>
-            <div class="goal_13">
-                <img src="images/E-WEB-Goal-13.png" alt="Climate action">
-            </div>
-            <div class="goal_14">
-                <img src="images/E-WEB-Goal-14.png" alt="Life below water">
-            </div>
-            <div class="goal_15">
-                <img src="images/E-WEB-Goal-15.png" alt="Life on Land">
-            </div>
-            <div class="goal_16">
-                <img src="images/E-WEB-Goal-16.png" alt="Peace, Justice and Strong Institutions">
-            </div>
-            <div class="goal_17">
-                <img src="images/E-WEB-Goal-17.png" alt="Partnerships for the goals">
-            </div>
-
-        </div>
-        <i class="fas fa-user-ninja"></i>
-    </div>
+                    <h1 class = 'blog-heading'>
+                    </h1>
+                    <h5>
+                    </h5>
+                    <p class = 'blog-content'>
+                    </p>
+                    <a href="#" onClick=" showDiv('#display');" id= "read-more"></a>
+                  
+                </div>  
+          
+                <div id="display" class="hide-div">
+                  <h1 class = 'blog-heading' id = 'blog-top'></h1>
+                  <h5>
+                  </h5>
+                  <p class = 'blog-content'></p>
+          
+                  <a href="#" id="previous-button"></a>
+                  <a href="#" id="next-button"></a>
+                </div>
+              </div>
 </div>
-<div>
-    <a href="library.html"><button class="library-button">Go To Laibah's Library</button></a>
-</div>
+<a href="index.html" aria-hidden="true"></a><i class="fas fa-home"></i></li>
 
-<div>
-    <a href="experiments.html"><button class="experiment-button">experimental shit</button></a>
-</div>
-
-    <script src="src/index.js"></script>
+<script src="src/index.js"></script>
 </body>
 </html>
