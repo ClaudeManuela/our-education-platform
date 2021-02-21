@@ -45,11 +45,10 @@
     color: rgba(243,175,101,1);
     opacity: 1;
     position: absolute;
-    width: 83px;
-    height: 83px;
+    height: 53px;
     left: 25px;
     top: 21px;
-    font-size: 60px;
+    font-size: 45px;
   }
   .v10_29 {
     width: 584px;
@@ -292,8 +291,8 @@
     opacity: 1;
     position: absolute;
     top: 20px;
-    left: 120px;
-    font-size: 60px;
+    left: 80px;
+    font-size: 45px;
     text-align: center;
     border-radius: 50%;
   }
@@ -332,7 +331,7 @@
       background: #E0A25F;
       border-radius: 35%;
       width: 250px;
-      height: 50px;
+      height: 30px;
       border-color: #E0A25F;
       border: none;
   color: #ffffff !important;
@@ -360,7 +359,7 @@
       top:675px;
       left: 200px;
       width: 250px;
-      height: 50px;
+      height: 30px;
       
       color: #fff !important;
       text-transform: lowercase;
