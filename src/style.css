@@ -961,6 +961,14 @@ left: 300px;
 top: 100px;
 }
 
+#sdg-1{
+  background-color: green;
+  width: 700px;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+}
+
 .modal-content {
   height: 500px;
   width: 700px;
@@ -984,3 +992,4 @@ top: 100px;
   position: absolute;
   left: 290px;
 }
+
