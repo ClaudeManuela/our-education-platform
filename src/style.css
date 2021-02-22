@@ -952,3 +952,35 @@
     }
     }
 
+/* Styling the modals basics */
+
+#exampleModal {
+width: 700px;
+position: absolute;
+left: 300px;
+top: 100px;
+}
+
+.modal-content {
+  height: 500px;
+  width: 700px;
+}
+
+.modal-footer button {
+  border-radius: 30px;
+  padding: 10px; 
+  width: 100px;
+  background-color: #F3AF65;
+}
+
+.ten-min {
+
+  position: absolute;
+  left: 20px;
+}
+
+.twenty-min {
+
+  position: absolute;
+  left: 290px;
+}
