@@ -29,11 +29,10 @@
     width: 618px;
     color: rgba(243,175,101,1);
     position: absolute;
-    top: 338px;
+    top: 188px;
     left: 102px;
     font-family: Poppins;
-    font-weight: 800;
-    font-weight: bold;
+    font-weight:bolder;
     font-size: 85px;
     opacity: 1;
     text-align: left;
@@ -54,7 +53,7 @@
     width: 584px;
     color: rgba(243,175,101,1);
     position: absolute;
-    top: 516px;
+    top: 366px;
     left: 119px;
     font-family: Poppins;
     font-weight: ExtraBold;
@@ -310,11 +309,32 @@
   
   img:hover {
   cursor: pointer;
-  opacity: 0.9;
-  -webkit-transform:scale(1.5); /* or some other value */
-  transform:scale(1.5);
   }
-  
+
+  .squiggles {
+    position: absolute;
+    width: 630px;
+    height: 410px;
+    left: 273px;
+    top: 610px;
+    border: #F3AF65;
+  }
+
+  .squiggles:hover {
+    cursor: default;
+  }
+
+  .other-squiggles {
+    position: absolute;
+    width: 550px;
+    height: 312px;
+    left: 353px;
+    top: 718px;
+    border: #F3AF65;
+  }
+  .other-squiggles:hover {
+    cursor: default;
+  }
   
   /* Library CSS */
   
@@ -326,7 +346,7 @@
   
   .library-button {
     position: relative;
-      top: 650px;
+      top: 470px;
       left: 200px;
       background: #E0A25F;
       border-radius: 35%;
@@ -356,11 +376,10 @@
   
     .experiment-button {
       position: relative;
-      top:675px;
+      top:480px;
       left: 200px;
       width: 250px;
       height: 30px;
-      
       color: #fff !important;
       text-transform: lowercase;
       text-decoration: none;
