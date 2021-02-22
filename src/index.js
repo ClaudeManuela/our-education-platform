@@ -291,3 +291,15 @@ function fixNav() {
 }
 window.addEventListener('scroll', fixNav)
 
+
+// the exepriments on opening a tab on click on sdg//
+
+function switchStyle() {
+  if (document.getElementById('styleSwitch').checked) {
+    document.getElementById('gallery').classList.add("custom");
+    document.getElementById('exampleModal').classList.add("custom");
+  } else {
+    document.getElementById('gallery').classList.remove("custom");
+    document.getElementById('exampleModal').classList.remove("custom");
+  }
+}
