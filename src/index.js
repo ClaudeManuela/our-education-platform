@@ -292,14 +292,16 @@ function fixNav() {
 window.addEventListener('scroll', fixNav)
 
 
-// the exepriments on opening a tab on click on sdg//
+// the exepriments page checlist//
 
-function switchStyle() {
-  if (document.getElementById('styleSwitch').checked) {
-    document.getElementById('gallery').classList.add("custom");
-    document.getElementById('exampleModal').classList.add("custom");
+$(document).ready(function() {
+  $('input[type=checkbox]').change(function() {
+  
+  if (this.checked) {
+  $(this).next(".label-text").css("text-decoration-line", "line-through");
   } else {
-    document.getElementById('gallery').classList.remove("custom");
-    document.getElementById('exampleModal').classList.remove("custom");
+  $(this).next(".label-text").css("text-decoration-line", "none");
   }
-}
+  
+  });
+  });
